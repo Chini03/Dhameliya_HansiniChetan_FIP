@@ -2,7 +2,7 @@
 **This Repo is for the Final Project Submission. It demonstrates the redesigned website, Couples Resort, with some added functionality.**
 
 ## Installation
-No istallation needed.
+No istallation needed. Just download the zip file, unzip it, and open the index file in a browser of your choice.
 
 ## Usage
 Open the index file in your browser of choice.
