@@ -468,3 +468,73 @@ Couples Resort Responsive Build
 #reg-mass-ther-nav ul li a.selected {
 border-left: #9a2018 solid 5px;
 }  
+
+#reg-mass-ther-con{
+   display: flex;
+   flex-direction: column;
+   font-size: 14px;
+   padding: 0px 15px;
+   margin-bottom: 18px;
+}
+
+#reg-mass-ther-con img{
+   align-self:center ;
+}
+
+#reg-mass-ther-con h2{
+   font-size: 20px;
+   margin: 12px 0 0 0;
+}
+
+#reg-mass-ther-con p:last-of-type {
+   font-family: Arial, Helvetica, sans-serif;
+   line-height: 20px;
+}
+
+#reg-mass-ther-con h2 + p{
+   margin: 4px 0 8px 0px;
+   font-style: italic;
+}
+
+#reg-mass-ther-con h2 + p span:first-of-type{
+   margin: 0px 4px 0 0px;
+   color: #9A2018;
+   font-weight: bold;
+   font-style: normal;
+}
+
+#reg-mass-ther-con h2 + p span:last-of-type{
+   margin: 0px 4px;
+   border-left: 1px solid #EEEEEE;
+   border-right: 1px solid #EEEEEE;
+   padding: 0px 4px;
+}
+
+/* Features Section */
+
+#features-hero-con {
+   background: url(../images/mob_sp_banner_sect_01.jpg) no-repeat;
+   height: 200px;
+}
+
+#features-hero-heading-box {
+   align-self: end;
+}
+
+   /* Text */
+#features-text p {
+   font-family: Arial, Helvetica, sans-serif;
+   font-size: 14px;
+   line-height: 20px;
+}
+
+#features-text section {
+   margin: 10px 0;
+   padding: 0 4px;
+}
+
+#features-text h2 {
+   font-size: 16px;
+   font-weight: bold;
+   margin-bottom: 4px;
+}
