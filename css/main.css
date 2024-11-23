@@ -143,7 +143,7 @@ Couples Resort Responsive Build
  .hero-img-h2, .hero-img-h3 {
     background: rgb(255, 255, 255);
     padding: 10px 15px;
-    font-size: 14px;
+    font-size: 18px;
  }
  
  .hero-img-h2 span,  .hero-img-h3 span {
@@ -512,6 +512,10 @@ border-left: #9a2018 solid 5px;
 
 /* Features Section */
 
+#features-con {
+   margin-bottom: 40px;
+}
+
 #features-hero-con {
    background: url(../images/mob_sp_banner_sect_01.jpg) no-repeat;
    height: 200px;
@@ -533,8 +537,112 @@ border-left: #9a2018 solid 5px;
    padding: 0 4px;
 }
 
-#features-text h2 {
+#features-text h3 {
    font-size: 16px;
    font-weight: bold;
    margin-bottom: 4px;
+}
+
+/* Policy Section */
+
+#policy-con {
+   background-color: #EEEEEE;
+   padding-top: 35px;
+   padding-bottom: 30px;
+   border-bottom: 2px #f9f9f9 solid;
+}
+
+#policy-con h2 {
+   font-size: 18px;
+   margin-bottom: 20px;
+}
+
+#policy-con h2 span {
+   color: #9a2018;
+   font-size: 12px;
+}
+
+#policy-con p{
+   font-family: Arial, Helvetica, sans-serif;
+   font-size: 14px;
+   line-height: 20px;
+   margin-bottom: 10px;
+}
+
+#policy-con a{
+   color: #333;
+   text-decoration: underline;
+}
+
+/* Circumstances Section */
+
+#circumstances-con {
+   background-color: #EEEEEE;
+   padding-top: 35px;
+   padding-bottom: 30px;
+   border-bottom: 2px #f9f9f9 solid;
+}
+
+#circumstances-con h2 {
+   font-size: 18px;
+   margin-bottom: 20px;
+}
+
+#circumstances-con h2 span {
+   color: #9a2018;
+   font-size: 12px;
+}
+
+#circumstances-con p{
+   font-family: Arial, Helvetica, sans-serif;
+   font-size: 14px;
+   line-height: 20px;
+   margin-bottom: 10px;
+}
+
+#circumstances-con a{
+   color: #333;
+   text-decoration: underline;
+}
+
+/* Ontario Spa Section */
+
+#ontario-spa-con {
+   background-color: #EEEEEE;
+   padding-top: 35px;
+   padding-bottom: 30px;
+   border-bottom: 2px #f9f9f9 solid;
+}
+
+#ontario-spa-con h2 {
+   font-size: 18px;
+   margin-bottom: 20px;
+}
+
+#ontario-spa-con h2 span {
+   color: #9a2018;
+   font-size: 12px;
+}
+
+.ontario-spa-image {
+   float: left;
+   margin-right: 20px;
+}
+
+#ontario-spa-con h3 {
+   font-size: 16px;
+   font-weight: bold;
+}
+
+#ontario-spa-con p {
+   font-family: Arial, Helvetica, sans-serif;
+   font-size: 14px;
+   line-height: 20px;
+   margin-bottom: 10px;
+   margin-top: 16px;
+}
+
+#ontario-spa-con a {
+   color: #333;
+   text-decoration: underline;
 }
