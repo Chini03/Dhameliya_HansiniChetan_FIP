@@ -399,38 +399,72 @@ Couples Resort Responsive Build
     align-self: flex-end;
  }
  
- #contact-hero-form input[type="submit"]:hover {
-    background-color: #626262;
-    border-radius: 0;
- }
+#contact-hero-form input[type="submit"]:hover {
+   background-color: #626262;
+   border-radius: 0;
+}
+
+/* 8. ---Footer--- */
+
+#footer-hero {
+   background-image: url(../images/mob_footer.jpg);
+   background-repeat: no-repeat;
+   color: #fff;
+   font-size: 12px;
+   margin-top: 40px;
+   padding-bottom: 80px;
+}
+
+#footer-hero h3 {
+   margin-top: 30px;
+   font-size: 28px;
+   margin-bottom: 16px;
+}
+
+#footer-privacy .line-seperator {
+   margin-top: 0px;
+}
+
+#footer-contact-info h3 {
+   font-size: 23px;
+}
  
- /* 8. ---Footer--- */
- 
- #footer-hero {
-    background-image: url(../images/mob_footer.jpg);
-     background-repeat: no-repeat;
-    color: #fff;
-    font-size: 12px;
-    margin-top: 40px;
-    padding-bottom: 80px;
- }
- 
- #footer-hero h3 {
-    margin-top: 30px;
-    font-size: 28px;
-    margin-bottom: 16px;
- }
- 
- #footer-privacy .line-seperator {
-    margin-top: 0px;
- }
- 
- #footer-contact-info h3 {
-    font-size: 23px;
- }
- 
- #footer-contact-info p {
-    margin-bottom: 20px;
-    line-height: 18px;
-    font-size: 11px;
- }
+#footer-contact-info p {
+   margin-bottom: 20px;
+   line-height: 18px;
+   font-size: 11px;
+}
+
+/* Spa Page */
+
+/* Hero Image */
+
+#spa-hero {
+   background: url(../images/mob_sp_hero-01.jpg) no-repeat;
+   height: 200px;
+}
+
+ /* Registered Massage Therapy */
+
+#reg-mass-ther-nav {
+   padding-top: 24px;
+}
+
+#reg-mass-ther-nav ul {
+   list-style: none;
+   margin: 0;
+   padding: 0;
+
+}
+#reg-mass-ther-nav ul li {
+   margin-bottom: 44px;
+}
+
+#reg-mass-ther-nav ul li a {
+  color: inherit;
+  padding: 5px;
+}
+
+#reg-mass-ther-nav ul li a.selected {
+border-left: #9a2018 solid 5px;
+}  
