@@ -668,3 +668,51 @@ border-left: #9a2018 solid 5px;
    color: #333;
    text-decoration: underline;
 }
+
+/* Rooms Page */
+
+/* Hero Image */
+
+#rooms-hero {
+   background: url(../images/mob_rp_hero-01.jpg) no-repeat;
+   height: 200px;
+}
+
+ /* Registered Massage Therapy */
+
+#rooms-nav {
+   padding-top: 24px;
+}
+
+#rooms-nav ul {
+   list-style: none;
+   margin: 0;
+   padding: 0;
+
+}
+#rooms-nav ul li {
+   margin-bottom: 44px;
+}
+
+#rooms-nav ul li a {
+  color: inherit;
+  padding: 5px;
+}
+
+#rooms-nav ul li a.selected {
+border-left: #9a2018 solid 5px;
+}
+
+#rooms-con img{
+   text-align:center ;
+}
+
+#rooms-con input[type="submit"] {
+   padding: 12px 28px;
+   background: #9a2018;
+   color: #fff;
+   border: none;
+   transition: all 200ms ease-in;
+   width: 150px;
+   align-self: flex-end;
+}
