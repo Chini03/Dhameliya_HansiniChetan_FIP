@@ -146,8 +146,9 @@ Couples Resort Responsive Build
     font-size: 18px;
  }
  
- .hero-img-h2 span,  .hero-img-h3 span {
-    color: #9a2018;
+ .hero-img-h2 span,  .hero-img-h3 span, #ontario-spa-con h2 span, #circumstances-con h2 span, #policy-con h2 span, #spa-products-con h2 span {
+   font-family: Arial, Helvetica, sans-serif; 
+   color: #9a2018;
     font-size: 12px;
  }
  
@@ -411,9 +412,10 @@ Couples Resort Responsive Build
    background-repeat: no-repeat;
    color: #fff;
    font-size: 12px;
-   margin-top: 40px;
    padding-bottom: 80px;
 }
+
+.margin-top {margin-top: 40px;}
 
 #footer-hero h3 {
    margin-top: 30px;
@@ -481,7 +483,7 @@ border-left: #9a2018 solid 5px;
    align-self:center ;
 }
 
-#reg-mass-ther-con h2{
+#reg-mass-ther-con h3{
    font-size: 20px;
    margin: 12px 0 0 0;
 }
@@ -491,19 +493,19 @@ border-left: #9a2018 solid 5px;
    line-height: 20px;
 }
 
-#reg-mass-ther-con h2 + p{
+#reg-mass-ther-con h3 + p{
    margin: 4px 0 8px 0px;
    font-style: italic;
 }
 
-#reg-mass-ther-con h2 + p span:first-of-type{
+#reg-mass-ther-con h3 + p span:first-of-type{
    margin: 0px 4px 0 0px;
    color: #9A2018;
    font-weight: bold;
    font-style: normal;
 }
 
-#reg-mass-ther-con h2 + p span:last-of-type{
+#reg-mass-ther-con h3 + p span:last-of-type{
    margin: 0px 4px;
    border-left: 1px solid #EEEEEE;
    border-right: 1px solid #EEEEEE;
@@ -527,7 +529,6 @@ border-left: #9a2018 solid 5px;
 
    /* Text */
 #features-text p {
-   font-family: Arial, Helvetica, sans-serif;
    font-size: 14px;
    line-height: 20px;
 }
@@ -557,13 +558,7 @@ border-left: #9a2018 solid 5px;
    margin-bottom: 20px;
 }
 
-#policy-con h2 span {
-   color: #9a2018;
-   font-size: 12px;
-}
-
 #policy-con p{
-   font-family: Arial, Helvetica, sans-serif;
    font-size: 14px;
    line-height: 20px;
    margin-bottom: 10px;
@@ -586,11 +581,6 @@ border-left: #9a2018 solid 5px;
 #circumstances-con h2 {
    font-size: 18px;
    margin-bottom: 20px;
-}
-
-#circumstances-con h2 span {
-   color: #9a2018;
-   font-size: 12px;
 }
 
 #circumstances-con p{
@@ -619,10 +609,6 @@ border-left: #9a2018 solid 5px;
    margin-bottom: 20px;
 }
 
-#ontario-spa-con h2 span {
-   color: #9a2018;
-   font-size: 12px;
-}
 
 .ontario-spa-image {
    float: left;
@@ -635,7 +621,6 @@ border-left: #9a2018 solid 5px;
 }
 
 #ontario-spa-con p {
-   font-family: Arial, Helvetica, sans-serif;
    font-size: 14px;
    line-height: 20px;
    margin-bottom: 10px;
@@ -643,6 +628,43 @@ border-left: #9a2018 solid 5px;
 }
 
 #ontario-spa-con a {
+   color: #333;
+   text-decoration: underline;
+}
+
+/* Spa Products Section */
+
+#spa-products-con {
+   background-color: #EEEEEE;
+   padding-top: 35px;
+   padding-bottom: 30px;
+   border-bottom: 2px #f9f9f9 solid;
+}
+
+#spa-products-con h2 {
+   font-size: 18px;
+   margin-bottom: 20px;
+}
+
+
+.spa-products-image {
+   float: left;
+   margin-right: 20px;
+}
+
+#spa-products-con h3 {
+   font-size: 16px;
+   font-weight: bold;
+}
+
+#spa-products-con p {
+   font-size: 14px;
+   line-height: 20px;
+   margin-bottom: 10px;
+   margin-top: 16px;
+}
+
+#spa-products-con a {
    color: #333;
    text-decoration: underline;
 }
