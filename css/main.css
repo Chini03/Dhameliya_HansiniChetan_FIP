@@ -707,16 +707,19 @@ border-left: #9a2018 solid 5px;
    padding-left: 15px;
 }
 
-#rooms-con input[type="submit"] {
+#rooms-description a {
    padding: 12px 28px;
    background: #9a2018;
    color: #fff;
    border: none;
    transition: all 200ms ease-in;
-   width: 150px;
-   align-self: flex-end;
-   margin-bottom: 16px;
+   /* width: 150px; */
+   /* display: block; */
+   /* margin-bottom: 16px; */
    border-radius: 4px;
+   text-decoration: none;
+   font-size: 14px;
+   text-align: center;
 }
 
 #rooms-con h3 {
@@ -725,16 +728,28 @@ border-left: #9a2018 solid 5px;
 }
 
 #rooms-description p {
-   line-height: 24px;
+   line-height: 30px;
    font-size: 14px;
 }
 
-#rooms-description div {
+#icon-con {
    padding: 16px 24px 16px 0px;
    border-top: 2px solid #EEEEEE;
 }
 
-#rooms-description div img {
+#button-con {
+   display: flex;
+   flex-direction: column;
+   border-top: none;
+   padding: 0;
+   margin: 0;
+}
+
+#button-con a:last-child {
+   margin-top: 16px;
+}
+
+#icon-con img {
    width: 32px;
 }
 
