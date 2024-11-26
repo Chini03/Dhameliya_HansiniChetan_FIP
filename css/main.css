@@ -704,7 +704,7 @@ border-left: #9a2018 solid 5px;
 }
 
 #rooms-con img{
-   text-align:center ;
+   padding-left: 15px;
 }
 
 #rooms-con input[type="submit"] {
@@ -715,4 +715,59 @@ border-left: #9a2018 solid 5px;
    transition: all 200ms ease-in;
    width: 150px;
    align-self: flex-end;
+   margin-bottom: 16px;
+   border-radius: 4px;
 }
+
+#rooms-con h3 {
+   margin: 8px 0;
+   padding-left: 15px;
+}
+
+#rooms-description p {
+   line-height: 24px;
+   font-size: 14px;
+}
+
+#rooms-description div {
+   padding: 16px 24px 16px 0px;
+   border-top: 2px solid #EEEEEE;
+}
+
+#rooms-description div img {
+   width: 32px;
+}
+
+/* General Amenities Section */
+
+#general-amenities-con {
+   margin-bottom: 40px;
+}
+
+#general-amenities-hero-con {
+   background: url(../images/mob_rp_banner_sect-02.jpg) no-repeat;
+   height: 200px;
+}
+
+#general-amenities-hero-heading-box {
+   align-self: end;
+}
+
+   /* Text */
+#general-amenities-text p {
+   font-size: 14px;
+   line-height: 20px;
+   margin-bottom: 8px;
+}
+
+#general-amenities-text ul {
+   margin: 0;
+   padding: 0;
+   list-style-type: none;
+}
+
+#general-amenities-text li {
+   padding: 8px 0;
+   border-bottom: 1px solid #9a2018;
+   font-size: 14px;
+}  
