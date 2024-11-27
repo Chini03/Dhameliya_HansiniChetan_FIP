@@ -1011,11 +1011,11 @@ border-bottom: #9a2018 solid 5px;
    padding: 0 15px;
 }
 
-#internal-rooms-con h3 + div {
+#internal-rooms-con h4 + div {
    display: flex;
 }
 
-#internal-rooms-con h3 + div {
+#internal-rooms-con h4 + div {
    display: flex;
    padding: 15px 0;
 }
