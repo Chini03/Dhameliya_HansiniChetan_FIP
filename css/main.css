@@ -19,61 +19,68 @@ Couples Resort Responsive Build
 
  /* 1. ---General Styles--- */
 
- #mobile-outline {
+#mobile-outline {
     outline: 20px solid #333;
     max-width: 412px;
     margin: 20px auto 20px auto;
     border-radius: 10px;
- } 
+} 
  
- body {
-    color: #626262;
-    font-family: 'Sanchez', 'Times New Roman', serif;
- }
+body {
+   color: #626262;
+   font-family: 'Sanchez', 'Times New Roman', serif;
+}
  
- a {
-    text-decoration: none;
-    transition: all .5s ease-in-out;
- }
+a {
+   text-decoration: none;
+   transition: all .5s ease-in-out;
+}
  
- input, textarea {
-    display: block;
-    margin: 0;
-    padding: 0;
- }
+input, textarea {
+   display: block;
+   margin: 0;
+   padding: 0;
+}
  
- .cr-red {
-    color: #9a2018;
- }
+.cr-red {
+   color: #9a2018;
+}
+
+#desktop-outline {
+   outline: 20px solid #333;
+   max-width: 1200px;
+   margin: 20px auto 20px auto;
+   border-radius: 10px;
+} 
  
  
  /* 2. ---Main Nav--- */
  
-  #main-nav label img {
-    width: 20px;
-    height: 20px;
-    margin-top: 15px;
-    cursor: pointer;
-    transition: all .5s ease;
-    margin-bottom: 20px; 
+#main-nav label img {
+   width: 20px;
+   height: 20px;
+   margin-top: 15px;
+   cursor: pointer;
+   transition: all .5s ease;
+   margin-bottom: 20px; 
  } 
  
  
  
- #main-nav input, #burger-con {
-    display: none;
- }
+#main-nav input, #burger-con {
+   display: none;
+}
  
  
  /*   ~ sibling selector   */
  
- #main-nav input:checked ~ #burger-con {
-    display: block;
- }
+#main-nav input:checked ~ #burger-con {
+   display: block;
+}
  
- #main-nav input:checked ~ label img {
-    transform: rotate(90deg);
- }
+#main-nav input:checked ~ label img {
+   transform: rotate(90deg);
+}
  
  #main-nav ul {
     list-style: none;
@@ -102,11 +109,49 @@ Couples Resort Responsive Build
  
  
  
- #logo {
-    margin-bottom: 20px;
-    max-width: 382px;
- }
- 
+#logo {
+   margin-bottom: 20px;
+   max-width: 382px;
+}
+
+ /* Desktop */
+
+#desk-main-nav ul {
+   list-style: none;
+   padding: 0;
+   margin: 0;
+   border-left: 2px solid #626262;
+   padding: 4px 0px 4px 69px;
+   /* margin-top: 31px; */
+}
+
+#desk-main-nav ul li {
+   display: inline;
+}
+
+#desk-main-nav ul li:nth-of-type(even) {
+   margin: 0 16px;
+}
+
+#desk-main-nav ul li a {
+   display: inline;
+   padding: 10px 0 10px 0;
+   text-align: center;
+   color: #626262;
+}
+
+#desk-logo {
+   /* padding-top: 35px; */
+   max-width: 382px;
+}
+
+.flex-con {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   height: 67px;
+}
+
  
  /* 3. ---Main Hero Image--- */
  
@@ -421,6 +466,7 @@ Couples Resort Responsive Build
    margin-top: 30px;
    font-size: 28px;
    margin-bottom: 16px;
+   font-family: Arial, Helvetica, sans-serif;
 }
 
 #footer-privacy .line-seperator {
@@ -436,6 +482,62 @@ Couples Resort Responsive Build
    line-height: 18px;
    font-size: 11px;
 }
+
+/* DESKTOP */
+#desk-footer-hero {
+   background-image: url(../images/desk_footer.jpg);
+   background-repeat: no-repeat;
+   color: #fff;
+   font-size: 12px;
+   padding-bottom: 80px;
+}
+
+#desk-footer-hero h3 {
+   margin-top: 30px;
+   font-size: 28px;
+   margin-bottom: 16px;
+   font-family: Arial, Helvetica, sans-serif;
+}
+
+#desk-footer-contact-info p {
+   margin-bottom: 20px;
+   line-height: 28px;
+   font-size: 13px;
+}
+
+#desk-footer-hero nav {
+   margin-top: 30px;
+   font-size: 20px;
+   display: flex;
+
+}
+
+#desk-footer-hero nav ul {
+   list-style: none;
+   color: #fff;
+   margin: 0;
+}
+
+#desk-footer-hero nav li {
+   margin-bottom: 20px;
+}
+
+#desk-footer-hero nav a {
+   color: #fff;
+}
+
+#desk-footer-privacy {
+   text-align: center;
+   font-size: 10.8px;
+   font-family: Arial, Helvetica, sans-serif;
+}
+
+#book-now-foot {
+   margin-top: 30px;
+   max-height: 110px;
+   font-size: 20px;
+}
+
 
 /* Spa Page */
 
@@ -785,7 +887,123 @@ border-left: #9a2018 solid 5px;
    padding: 8px 0;
    border-bottom: 1px solid #9a2018;
    font-size: 14px;
-}  
+} 
+/* DESKTOP ROOMS PAGE */
+
+/* Hero Image */
+
+#desk-rooms-hero {
+   background: url(../images/desk_rp_hero-01.jpg) no-repeat;
+   height: 448px;
+}
+
+ /* Registered Massage Therapy */
+
+#desk-rooms-nav {
+   padding-top: 24px;
+}
+
+#desk-rooms-nav ul {
+   list-style: none;
+   margin: 0;
+   padding: 0;
+
+}
+#desk-rooms-nav ul li {
+   margin-right: 16px;
+   display: inline;
+}
+
+
+#desk-rooms-nav ul li a {
+  color: inherit;
+  padding: 5px;
+}
+
+#desk-rooms-nav ul li a.selected {
+border-bottom: #9a2018 solid 5px;
+}
+
+#desk-rooms-con img{
+   padding-left: 15px;
+   margin-top: 12px;
+}
+
+#desk-rooms-description ul {
+   margin: 0;
+   padding: 0;
+   list-style-type: none;
+   margin-bottom: 24px;
+}
+
+#desk-rooms-description li {
+   padding: 8px 0;
+   border-bottom: 1px solid #9a2018;
+   font-size: 16px;
+} 
+
+#desk-button-con {
+   display: flex;
+   flex-direction: column;
+   border-top: none;
+   padding: 0;
+   margin: 0;
+}
+
+#desk-button-con a {
+   padding: 12px 28px;
+   background: #9a2018;
+   color: #fff;
+   border: none;
+   transition: all 200ms ease-in;
+   /* width: 150px; */
+   /* display: block; */
+   margin-bottom: 16px;
+   border-radius: 4px;
+   text-decoration: none;
+   font-size: 14px;
+   text-align: center;
+}
+
+#desk-rooms-con h3 {
+   margin: 8px 0;
+   /* padding-left: 15px; */
+}
+
+
+/* General Amenities Section */
+
+#desk-general-amenities-con {
+   margin-bottom: 40px;
+}
+
+#desk-general-amenities-hero-con {
+   background: url(../images/desk_rp_banner_sect-02.jpg) no-repeat;
+   height: 240px;
+}
+
+#desk-general-amenities-hero-heading-box {
+   align-self: end;
+}
+
+   /* Text */
+#desk-general-amenities-text p {
+   font-size: 16px;
+   line-height: 20px;
+   margin-bottom: 8px;
+}
+
+#desk-general-amenities-con ul {
+   margin: 0;
+   padding: 0;
+   list-style-type: none;
+}
+
+#desk-general-amenities-con li {
+   padding: 8px 0;
+   border-bottom: 1px solid #9a2018;
+   font-size: 16px;
+}
 
 /* Internal Rooms Page */
 
