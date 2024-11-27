@@ -811,6 +811,105 @@ div.line-separator img[alt="Chateaus Gallery"]:nth-of-type(2) {
 }
 
 #internal-rooms-description a {
+   padding: 16px 20px;
+   background: #9a2018;
+   color: #fff;
+   border: none;
+   transition: all 200ms ease-in;
+   margin-bottom: 16px;
+   border-radius: 4px;
+   text-decoration: none;
+   font-size: 14px;
+   text-align: center;
+}
+
+#internal-rooms-description p {
+   font-size: 14px;
+   line-height: 24px;
+}
+
+#room-features-con {
+   background-color: #EEEEEE;
+   padding-top: 24px;
+   padding-bottom: 30px;
+
+   margin-top: 16px;
+}
+
+
+#room-features-con div.hero-img-h3 {
+   background-color: #EEEEEE;
+}
+
+#room-features-con ul {
+   margin: 0;
+   padding: 0;
+   list-style-type: none;
+}
+
+#room-features-con li {
+   padding: 8px 0;
+   border-bottom: 1px solid #9a2018;
+   font-size: 14px;
+} 
+
+/* All-Inclusive Section */
+
+#all-inclusive-hero-con {
+   background: url(../images/mob_rp_banner_sect-02.jpg) no-repeat;
+   height: 200px;
+}
+
+#all-inclusive-hero-heading-box {
+   align-self: end;
+}
+
+   /* Text */
+#all-inclusive-text p {
+   font-size: 14px;
+   line-height: 20px;
+   margin-bottom: 8px;
+}
+
+#all-inclusive-text ul {
+   margin: 0;
+   padding: 0;
+   list-style-type: none;
+}
+
+#all-inclusive-text li {
+   padding: 8px 0;
+   border-bottom: 1px solid #9a2018;
+   font-size: 14px;
+}
+
+/* Extra information part */
+
+#extra-information {
+   background-color: #EEEEEE;
+   padding: 12px 15px 28px 15px;
+   text-align: center;
+   margin-top: 12px;
+}
+
+#extra-information p {
+   font-weight: bold;
+   font-size: 14px;
+   margin-bottom: 20px;
+}
+
+#extra-information p + a {
+   text-decoration: underline;
+   color: #333;
+   font-size: 14px;
+   margin-bottom: 20px;
+}
+
+#extra-information div {
+   margin-top: 30px;
+}
+
+#extra-information div a {
    padding: 12px 28px;
    background: #9a2018;
    color: #fff;
@@ -822,5 +921,11 @@ div.line-separator img[alt="Chateaus Gallery"]:nth-of-type(2) {
    border-radius: 4px;
    text-decoration: none;
    font-size: 14px;
+   text-align: center;
 }
+
+#extra-information div a:last-child {
+   margin-left: 16px;
+}
+
 
