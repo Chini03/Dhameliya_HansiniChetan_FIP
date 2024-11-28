@@ -814,7 +814,7 @@ border-left: #9a2018 solid 5px;
    padding-left: 15px;
 }
 
-#button-con a {
+#button-con a, #button-con p {
    padding: 12px 28px;
    background: #9a2018;
    color: #fff;
@@ -827,6 +827,56 @@ border-left: #9a2018 solid 5px;
    text-decoration: none;
    font-size: 14px;
    text-align: center;
+}
+
+#button-con label {
+   position: relative;
+   margin-top: 16px;
+}
+
+#button-con p {
+   top: -0.5rem;
+   left: 0rem;
+   z-index: -1;
+   position: absolute;
+   opacity: 0;
+}
+
+label[for="unavailable"] a {
+   cursor: pointer;
+   display: block;
+}
+
+
+#unavailable {
+   display: none;
+   transform: scale(14,3.5);
+   width: 176px;
+}
+
+
+#unavailable:checked ~ label a {
+   cursor: pointer;
+   margin-top: 16px;
+   animation-name: fade-out;
+   animation-duration: 0.1s;
+   animation-timing-function: linear;
+   animation-fill-mode: forwards;
+}
+
+#unavailable:checked ~ label p {
+   animation-name: fade-in;
+   animation-duration: 0.3s;
+   animation-timing-function: ease-in;
+   animation-fill-mode: forwards;
+}
+
+@keyframes fade-out {
+   100% {opacity: 0;}
+}
+
+@keyframes fade-in {
+   100% {opacity: 1;}
 }
 
 #rooms-con h3 {
@@ -850,10 +900,6 @@ border-left: #9a2018 solid 5px;
    border-top: none;
    padding: 0;
    margin: 0;
-}
-
-#button-con a:last-child {
-   margin-top: 16px;
 }
 
 #icon-con img {
