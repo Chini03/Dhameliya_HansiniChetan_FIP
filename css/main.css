@@ -362,7 +362,7 @@ input, textarea {
  .faq-items summary {
     background: #e8e7e7;
     padding: 16px;
-
+    cursor: pointer;
  }
 
  .faq-items summary h3 {
