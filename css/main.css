@@ -834,7 +834,7 @@ border-left: #9a2018 solid 5px;
    margin-top: 16px;
 }
 
-#button-con p {
+#button-con label[for="unavailable"] a:last-child {
    top: -0.5rem;
    left: 0rem;
    z-index: -1;
@@ -842,7 +842,7 @@ border-left: #9a2018 solid 5px;
    opacity: 0;
 }
 
-label[for="unavailable"] a {
+label[for="unavailable"] a:first-child {
    cursor: pointer;
    display: block;
 }
@@ -855,7 +855,7 @@ label[for="unavailable"] a {
 }
 
 
-#unavailable:checked ~ label a {
+#unavailable:checked ~ label a:first-child {
    cursor: pointer;
    margin-top: 16px;
    animation-name: fade-out;
@@ -864,7 +864,7 @@ label[for="unavailable"] a {
    animation-fill-mode: forwards;
 }
 
-#unavailable:checked ~ label p {
+#unavailable:checked ~ label a:last-child {
    animation-name: fade-in;
    animation-duration: 0.3s;
    animation-timing-function: ease-in;
